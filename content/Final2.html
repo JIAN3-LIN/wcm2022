@@ -213,10 +213,10 @@ run()
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
 <div id="kw_editor" style="width: 600px; height: 300px;"></div>
 <p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
-<!-- 存擋表單開始 --><form><label><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">文件名：</span></span><input id="kw_filename" placeholder="輸入文件名" type="text"/><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">.py</span></span></label> <span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><input onclick="doSave('kw_py_src', 'kw_filename');" type="submit" value="保存"/></span></span></form><!-- 存擋表單結束 -->
+<!-- 存擋表單開始 --><form><label><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">文件名：</span></span><input id="kw_filename" placeholder="輸入文件名" type="text"/><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">.py</span></span></label> <span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><input onclick="doSave('kw_py_src', 'kw_filename');" type="submit" value="save"/></span></span></form><!-- 存擋表單結束 -->
 <p></p>
 <!-- 執行與清除按鈕開始 -->
-<p><button id="kw_run"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">跑</span></span></button> <button id="kw_show_console"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">輸出</span></span></button> <button id="kw_clear_console"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">清除輸出區</span></span></button><button id="clear_bd"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">清畫區</span></span></button><button onclick="window.location.reload()"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">重新加載</span></span></button></p>
+<p><button id="kw_run"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">run</span></span></button> <button id="kw_show_console"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">輸出</span></span></button> <button id="kw_clear_console"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">清除輸出區</span></span></button><button id="clear_bd"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">清畫區</span></span></button><button onclick="window.location.reload()"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">重新加載</span></span></button></p>
 <!-- 執行與清除按鈕結束 -->
 <p></p>
 <!-- 程式執行 ouput 區 -->
